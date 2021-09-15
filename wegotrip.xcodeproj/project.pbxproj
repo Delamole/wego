@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F67B99F60339AF51C485DCE /* Pods_wegotrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63D07146489E4371440F9B /* Pods_wegotrip.framework */; };
+		96DEFA8426F0D0C000E42347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFA8326F0D0C000E42347 /* AppDelegate.swift */; };
+		96DEFA8626F0D0C000E42347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFA8526F0D0C000E42347 /* SceneDelegate.swift */; };
+		96DEFA8826F0D0C000E42347 /* ExcursionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFA8726F0D0C000E42347 /* ExcursionViewController.swift */; };
+		96DEFA8B26F0D0C000E42347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DEFA8926F0D0C000E42347 /* Main.storyboard */; };
+		96DEFA8D26F0D0C100E42347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DEFA8C26F0D0C100E42347 /* Assets.xcassets */; };
+		96DEFA9026F0D0C100E42347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DEFA8E26F0D0C100E42347 /* LaunchScreen.storyboard */; };
+		96DEFA9926F0D1AC00E42347 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFA9826F0D1AC00E42347 /* Model.swift */; };
+		96DEFA9D26F0D8E100E42347 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFA9C26F0D8E100E42347 /* MainViewController.swift */; };
+		96DEFA9F26F0D8F000E42347 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFA9E26F0D8F000E42347 /* StepsViewController.swift */; };
+		96DEFAA126F0D90800E42347 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFAA026F0D90800E42347 /* PlayerViewController.swift */; };
+		96DEFAA326F0D92400E42347 /* ExcursionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFAA226F0D92400E42347 /* ExcursionTableViewCell.swift */; };
+		96DEFAA526F0D93B00E42347 /* StepsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEFAA426F0D93B00E42347 /* StepsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007BD147BFF4174555DEFD8E /* Pods-wegotrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wegotrip.release.xcconfig"; path = "Target Support Files/Pods-wegotrip/Pods-wegotrip.release.xcconfig"; sourceTree = "<group>"; };
+		96DEFA8026F0D0C000E42347 /* wegotrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wegotrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DEFA8326F0D0C000E42347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96DEFA8526F0D0C000E42347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96DEFA8726F0D0C000E42347 /* ExcursionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcursionViewController.swift; sourceTree = "<group>"; };
+		96DEFA8A26F0D0C000E42347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96DEFA8C26F0D0C100E42347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96DEFA8F26F0D0C100E42347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96DEFA9126F0D0C100E42347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DEFA9826F0D1AC00E42347 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		96DEFA9C26F0D8E100E42347 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		96DEFA9E26F0D8F000E42347 /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		96DEFAA026F0D90800E42347 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		96DEFAA226F0D92400E42347 /* ExcursionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcursionTableViewCell.swift; sourceTree = "<group>"; };
+		96DEFAA426F0D93B00E42347 /* StepsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTableViewCell.swift; sourceTree = "<group>"; };
+		A7416A76B6889E0BC7BE0EA4 /* Pods-wegotrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wegotrip.debug.xcconfig"; path = "Target Support Files/Pods-wegotrip/Pods-wegotrip.debug.xcconfig"; sourceTree = "<group>"; };
+		BA63D07146489E4371440F9B /* Pods_wegotrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wegotrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96DEFA7D26F0D0C000E42347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F67B99F60339AF51C485DCE /* Pods_wegotrip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7399048E1107C5FC28DC4594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA63D07146489E4371440F9B /* Pods_wegotrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		878E2472D08AB3304CA47CFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7416A76B6889E0BC7BE0EA4 /* Pods-wegotrip.debug.xcconfig */,
+				007BD147BFF4174555DEFD8E /* Pods-wegotrip.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96DEFA7726F0D0C000E42347 = {
+			isa = PBXGroup;
+			children = (
+				96DEFA8226F0D0C000E42347 /* wegotrip */,
+				96DEFA8126F0D0C000E42347 /* Products */,
+				878E2472D08AB3304CA47CFE /* Pods */,
+				7399048E1107C5FC28DC4594 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96DEFA8126F0D0C000E42347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96DEFA8026F0D0C000E42347 /* wegotrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96DEFA8226F0D0C000E42347 /* wegotrip */ = {
+			isa = PBXGroup;
+			children = (
+				96DEFA9B26F0D2D900E42347 /* controllers */,
+				96DEFA9A26F0D2C500E42347 /* cells */,
+				96DEFA9726F0D19900E42347 /* model */,
+				96DEFA8326F0D0C000E42347 /* AppDelegate.swift */,
+				96DEFA8526F0D0C000E42347 /* SceneDelegate.swift */,
+				96DEFA8926F0D0C000E42347 /* Main.storyboard */,
+				96DEFA8C26F0D0C100E42347 /* Assets.xcassets */,
+				96DEFA8E26F0D0C100E42347 /* LaunchScreen.storyboard */,
+				96DEFA9126F0D0C100E42347 /* Info.plist */,
+			);
+			path = wegotrip;
+			sourceTree = "<group>";
+		};
+		96DEFA9726F0D19900E42347 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				96DEFA9826F0D1AC00E42347 /* Model.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		96DEFA9A26F0D2C500E42347 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				96DEFAA226F0D92400E42347 /* ExcursionTableViewCell.swift */,
+				96DEFAA426F0D93B00E42347 /* StepsTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		96DEFA9B26F0D2D900E42347 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96DEFA8726F0D0C000E42347 /* ExcursionViewController.swift */,
+				96DEFA9C26F0D8E100E42347 /* MainViewController.swift */,
+				96DEFA9E26F0D8F000E42347 /* StepsViewController.swift */,
+				96DEFAA026F0D90800E42347 /* PlayerViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96DEFA7F26F0D0C000E42347 /* wegotrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96DEFA9426F0D0C100E42347 /* Build configuration list for PBXNativeTarget "wegotrip" */;
+			buildPhases = (
+				0611E864EB46003CBDBBB9F8 /* [CP] Check Pods Manifest.lock */,
+				96DEFA7C26F0D0C000E42347 /* Sources */,
+				96DEFA7D26F0D0C000E42347 /* Frameworks */,
+				96DEFA7E26F0D0C000E42347 /* Resources */,
+				69E5723ADCCFA92916054F39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wegotrip;
+			productName = wegotrip;
+			productReference = 96DEFA8026F0D0C000E42347 /* wegotrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96DEFA7826F0D0C000E42347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					96DEFA7F26F0D0C000E42347 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 96DEFA7B26F0D0C000E42347 /* Build configuration list for PBXProject "wegotrip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96DEFA7726F0D0C000E42347;
+			productRefGroup = 96DEFA8126F0D0C000E42347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96DEFA7F26F0D0C000E42347 /* wegotrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96DEFA7E26F0D0C000E42347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DEFA9026F0D0C100E42347 /* LaunchScreen.storyboard in Resources */,
+				96DEFA8D26F0D0C100E42347 /* Assets.xcassets in Resources */,
+				96DEFA8B26F0D0C000E42347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0611E864EB46003CBDBBB9F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wegotrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E5723ADCCFA92916054F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wegotrip/Pods-wegotrip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wegotrip/Pods-wegotrip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wegotrip/Pods-wegotrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96DEFA7C26F0D0C000E42347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DEFA8826F0D0C000E42347 /* ExcursionViewController.swift in Sources */,
+				96DEFA8426F0D0C000E42347 /* AppDelegate.swift in Sources */,
+				96DEFAA326F0D92400E42347 /* ExcursionTableViewCell.swift in Sources */,
+				96DEFA8626F0D0C000E42347 /* SceneDelegate.swift in Sources */,
+				96DEFAA126F0D90800E42347 /* PlayerViewController.swift in Sources */,
+				96DEFAA526F0D93B00E42347 /* StepsTableViewCell.swift in Sources */,
+				96DEFA9926F0D1AC00E42347 /* Model.swift in Sources */,
+				96DEFA9F26F0D8F000E42347 /* StepsViewController.swift in Sources */,
+				96DEFA9D26F0D8E100E42347 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96DEFA8926F0D0C000E42347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DEFA8A26F0D0C000E42347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96DEFA8E26F0D0C100E42347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DEFA8F26F0D0C100E42347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96DEFA9226F0D0C100E42347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96DEFA9326F0D0C100E42347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96DEFA9526F0D0C100E42347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7416A76B6889E0BC7BE0EA4 /* Pods-wegotrip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52C7M73D5T;
+				INFOPLIST_FILE = wegotrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "develop-feature-ios-init.wegotrip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96DEFA9626F0D0C100E42347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007BD147BFF4174555DEFD8E /* Pods-wegotrip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52C7M73D5T;
+				INFOPLIST_FILE = wegotrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "develop-feature-ios-init.wegotrip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96DEFA7B26F0D0C000E42347 /* Build configuration list for PBXProject "wegotrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DEFA9226F0D0C100E42347 /* Debug */,
+				96DEFA9326F0D0C100E42347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96DEFA9426F0D0C100E42347 /* Build configuration list for PBXNativeTarget "wegotrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DEFA9526F0D0C100E42347 /* Debug */,
+				96DEFA9626F0D0C100E42347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96DEFA7826F0D0C000E42347 /* Project object */;
+}
